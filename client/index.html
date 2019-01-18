@@ -2,12 +2,89 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Evernote Clone</title>
+    <style>
+	body {
+	font-family: "Lato", sans-serif;}
+	
+	.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+	</style>
+    <title>Evernote Evernote Evernote</title>
     <script src="src/index.js" charset="utf-8"></script>
   </head>
   <body>
 
     <!-- ADD YOUR HTML HERE -->
+
+
+  	<div id='sidebar' class="sidenav">
+  <a font color="red" href="#about">About Evernote</a><br>
+  <a href="#services">Services Evernote</a><br>
+  <a href="#clients">Clients of Evernote</a><br>
+  <a href="#contact">Contact Evernote</a>
+  <h2><font color="white">All Users:</font></h2>
+  <div id='users_div'>
+  	<!-- For users to be appended!! -->
+  </div>
+  <div id='forappendingnewnotes'>
+  </div>
+</div>
+
+<div id='mainBody' class="main">
+<h1>Evernote</h1>
+  <h2>Evernote, Evernote, Evernote, Evernote </h2>
+  <div id='for_note'></div>
+  <!-- <p>Evernote,</p>
+  <p>Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote </p>
+  <p>Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote</p> -->
+  <div id='create' class='container'>
+  	<form class="add-toy-form" style="">
+        <h2>Create an Evernote, Evernote, Evertnote!!!!</h2>
+<label for="story">Title:</label>
+        <input id="title" type="text" name="title" value="" placeholder="Enter a Evernote title..." class="input-text">
+        <br>
+        <textarea rows="6" cols="70" id="body" name="body" value="">Girl look at that body... </textarea>
+        <br>
+        <input type="submit" name="submit" value="Submit" class="submit">
+      </form>
+  </div>
+  <!-- <p>Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote</p> -->
+  <div id='editForm' class='Edit_container'>
+  	<form>
+  		<h2>edit FORM</h2>
+  		<label for="story">Title:</label>
+        <input id="title" type="text" name="title" value="" placeholder="Enter a Evernote title..." class="input-text">
+        <br>
+        <textarea rows="6" cols="70" id="body" name="body" value="">Girl look at that body... </textarea>
+        <br>
+        <input type="submit" name="submit" value="Submit" class="submit">
+  	</form>
+  </div>
+
+  <!-- <p>Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote</p> -->
+  <!-- <p>Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote, Evernote</p> -->
+<!-- </div> -->
+
+
+
 
   </body>
 </html>
